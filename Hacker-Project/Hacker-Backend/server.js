@@ -14,8 +14,7 @@ import routerAsk from './routes/AskRouter.js';
 import Showrouter from './routes/ShowRouter.js';
 
 mongoose.connect(
-  'mongodb+srv://abgaryansargis09:sargis2006@cluster0.uebidsk.mongodb.net/blog?retryWrites=true&w=majority&appName=Cluster0',
-  { useNewUrlParser: true, useUnifiedTopology: true }
+  "mongodb+srv://abgaryansargis09:1JPDSX5HuarOI8N0@cluster0.uebidsk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 );
 
 const app = express();
